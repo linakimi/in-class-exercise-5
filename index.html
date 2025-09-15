@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<!--Describe the line below-->
+<!--Links the Icon to the link provided-->
 <link rel="icon" href="https://glitch.com/favicon.ico" />
   
 <title>Cryptid Watch</title>
@@ -12,38 +12,49 @@ name="description"
 content="Your number one resource for the latest Cryptid sightings."
 />
 
-<!-- Describe what the meta elements below for -->
+<!-- Meta Name is to define metadata in HTML  -->
+<!-- Meta content is information corresponding the name/propterty attribute -->
+<!-- Meta property is used for metadata about a webpage and documents-->
 <meta name="robots" content="index,follow" />
 <meta property="og:title" content="Hello World!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
 <meta name="twitter:card" content="summary" />
 
-<!-- Describe what the link below does -->
+<!-- The links navigate the user to the specified category -->
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<!--Wrap the links below in a header tag and then a nav tag-->
-<!--Add addresses to the links below-->
-<a href="">Home</a><a href="">Today's Sighting</a><a href="">Report</a>
-<!--Describe what goes in the main-->
+    <header>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./today.html">Today's Sighting</a>
+            <a href="./report.html">Report</a>
+        </nav>
+    </header>
+<!--The main content of the application goes in the main-->
 <main>
-<div class="hero"><div class="hero-text">
-<!-- What is an h1?-->
-<h1 class="title">Cryptid Watch</h1><p>Your home for the latest <br> cryptic sightings</p>
+    <div class="hero">
+        <div class="hero-text">
+<!-- First Section Heading-->
+<h1 class="title">Cryptid Watch</h1>
+<p>Your home for the latest <br> cryptic sightings</p>
 </div>
 </div>
 <article>
 <h2>I want to believe</h2>
 <p>
-Here at Cryptid Watch we are dedicated to sharing stories from the witnesses with the public.
-Everyone is believed and everyone is welcome. 
+Here at <b>Cryptid Watch</b> we are dedicated to sharing stories from the <i>witnesses</i> with the public.
+<em>Everyone is believed and everyone is welcome.</em> 
 To see the latest report go to our Today's Sighting page. 
 To share you creepy encounter go to our Report page. 
 </p>    
 <p>Happy hunting.</p>
-</article></main>
-<!--What goes in the footer?-->
-<footer><a href="#">Join us on Discord</a></footer>
+</article>
+</main>
+<!-- The footer usually has contact information or links -->
+<footer>
+    <a href="#">Join us on Discord</a>
+</footer>
 </body>
 </html>
